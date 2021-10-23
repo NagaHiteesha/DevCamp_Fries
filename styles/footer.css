@@ -1,0 +1,90 @@
+/* common footer styles */
+.footer-wrapper{
+    height: 560px;
+    background-color: #11122b;
+    color: #cbcbcb;    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    flex-direction: column;
+    margin-top: -4px;
+}
+
+.footer-wrapper> .banner-image img{
+    width: 180px;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+.footer-wrapper>.contact-hours-wrapper{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 2px;
+}
+
+.footer-wrapper>.contact-hours-wrapper>.phone{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-right: 10px;
+    font-size:0.8em ;
+    color: #cbcbcb;    
+    transition: 0.5s;
+}
+
+.footer-wrapper>.contact-hours-wrapper>.phone:hover{
+    color: #cea135;
+}
+
+.footer-wrapper>.contact-hours-wrapper>.hours{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-left: 10px;
+    font-size:0.8em ;
+    color: #cea135;
+}
+
+.footer-wrapper>.links-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer-wrapper>.social-media{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-wrapper>.social-media{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+.footer-wrapper>.social-media>.insta i{
+    color: #cbcbcb;    
+    transition: 0.5s;
+}
+
+.footer-wrapper>.social-media>.insta i:hover{
+    color: #cea135;
+}
+
+.footer-wrapper>.social-media>.facebook i{
+    color: #cbcbcb;    
+}
+
+.footer-wrapper>.social-media>.facebook i:hover{
+    color: #cea135;
+}
+
+.footer-wrapper>.copywright{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #cbcbcb;    
+}
